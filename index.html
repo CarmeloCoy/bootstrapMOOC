@@ -8,59 +8,95 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+
+    <!--CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Hello, world!</title>
   </head>
   <body>	
     <div class="jumbotron"><h1>Hoteles</h1></div>
     <div class="container">
-      <div class="row">
+      <div class="d-flex">
         <div class="col-sm-4">
           <p>
-            <h3> Producto1</h3>
-            <p> Un producto uno.</p>
+            <h3> ¿Harto de comprar cosas inútiles?</h3>
+            <p> ¿Harto de comprar cosas que no necesitas a precios que no puedes asumir?</p>
           </p>
         </div>
         <div class="col-sm-4">
           <p>
-            <h3>Producto 2</h3>	
-            <p> Lo mismo que el uno pero mejor </p>
+            <h3>¿Harto de promociones engañinas?</h3>	
+            <p>¿Harto de promociones que solo te hacen pagar más por cosas que no quieres?</p>
           </p>
         </div>
         <div class="col-sm-4">
-	  <p>
-            <h3> Producto 3</h3>
-            <p> Bestial. Brutal. Lo mismo que el dos pero mejor </p>
+          <p>
+            <h3> Esta es tu página</h3>
+            <p>Enhorabuena! Esta es tu página web. Vendemos nada a precios incalculables.</p>
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <p>
-            <h3> Producto 4</h3>
+
+      <div class="d-flex flex-wrap">
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h3> Producto 1</h3>
             <p> En este producto puedes pinchar abajo.</p>
-	    <button class="btn btn-dark"> Pinche aquí </button>
-          </p>
+          </div>
+	        <div><button class="btn btn-reserva"> Pinche aquí </button></div>
         </div>
-        <div class="col-sm-4">
-          <p>
-            <h3>Producto 5</h3> 
-            <p> Lo mismo que el cuatro pero mejor </p>
-	    <button class="btn btn-dark">Aquí pinche </button>
-          </p>
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h3>Producto 2</h3> 
+            <p> Lo mismo que el tres pero mejor con más pinche</p>
+          </div>
+          <div><button class="btn btn-reserva">Aquí pinche </button> </div>
         </div>
-        <div class="col-sm-4">
-          <p>
-            <h3> Producto 6</h3>
-            <p> Bestial. Brutal. Lo mismo que el cinco pero mejor. </p>
-	    <button class="btn btn-dark"> Pinchaste?</button>  
-          </p>
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h3> Producto 3</h3>
+            <p> Bestial. Brutal. Lo mismo que el dos pero no. Es mejor!! </p>
+          </div>
+          <div><button class="btn btn-reserva"> Pinchaste?</button></div>
+        </div>
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h3> Producto 4</h3>
+            <p> El mejor de todos nuestros productos. No te arepentirás!!!</p>
+          </div>
+          <div><button class="btn btn-reserva"> Pinchaste?</button></div>
+        </div>
+        <div class="product-card d-flex flex-column justify-content-between">
+          <div>
+            <h3> Producto 8</h3>
+            <p> Brutal oferta. Irresistible.</p>
+          </div>
+          <div><button class="btn btn-reserva"> Pinchaste?</button></div>
         </div>
       </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
   </body>
+  
+  <footer>
+    <div class="row">
+      <div class="col-sm-6 d-flex flex-column">
+          <a href="http://www.google.com"> Personal Web Page </a>
+          <a href="http://www.google.com"> Twitter</a>
+      </div>
+      <div class="col-sm-6">
+        <address>
+          <h3> Oficina Central </h3>
+          <p>Murcia, Plaza Juan XXIII, España </p>
+          <p> pagina.de.productos@producciones.ess </p>        
+        </address>
+      </div>
+    </div> 
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
 </html>
