@@ -40,9 +40,63 @@
           <li class="breadcrumb-item active" aria-current="page">  Contacto </li>
         <ol>
       </nav>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus sed metus at scelerisque. Curabitur interdum, est ut viverra volutpat, arcu libero lobortis nisi, a malesuada lectus neque vel ipsum. Nulla tempus egestas nulla, sit amet imperdiet neque cursus bibendum. Vivamus ut interdum odio. Nullam id justo accumsan, posuere tellus nec, gravida velit. Proin sagittis ac dolor in luctus. Mauris non sodales justo. Nullam mattis ante ac tincidunt bibendum. Nulla non turpis vel nibh eleifend accumsan. Nullam fringilla nisl pharetra, cursus augue ut, mollis justo. Suspendisse volutpat interdum velit id fermentum. Mauris semper, arcu non mattis sodales, elit nibh vestibulum tellus, pulvinar efficitur felis tortor non magna. In consectetur vitae ante vel faucibus. Cras congue laoreet laoreet. </p>
-      </div>
+
+      <h1> Déjame tu comentario </h1>
+      <form>
+        <div class="form-row">
+           <div class="form-group col-sm-6">
+            <label for="nombre" > Nombre </label>
+            <input type="text" class="form-control" id="nombre" placeholder="Introduzca su nombre"/>
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="apellido" > Apellidos </label>
+            <input type="text" class="form-control" id="apellido" placeholder="Introduzca su apellido"/> 
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" > Correo electrónico </label>
+          <input type="email" class="form-control" id="email" placeholder="Introduzca su correo"/> 
+        </div>
+        <div class="form-row">
+           <div class="form-group col-sm-9">
+            <label for="domicilio" > Domicilios </label>
+            <input type="text" class="form-control" id="domicilio" placeholder="Introduzca su domicilio"/>
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="ccaa" > Comunidad Autónoma </label>
+            <select class="form-control" id="ccaa" >
+              <option disabled selected>Seleccione...</option>
+              <option> Andalucía </option>
+              <option> Aragón </option>
+              <option> Canarias </option>
+              <option> Cantabria </option>
+              <option> Castilla-La Mancha</option>
+              <option> Castilla y León</option>
+              <option> Cataluña </option>
+              <option> Ceuta </option>
+              <option> Comunidad de Madrid </option>
+              <option> Comunidad Valenciana </option>
+              <option> Extremadura </option>
+              <option> Islas Baleares </option>
+              <option> La Rioja </option>
+              <option> Melilla </option>
+              <option> Navarra </option>
+              <option> País Vasco </option>
+              <option> Principado de Asturias </option>
+              <option> Región de Murcia </option>
+            </select> 
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comentario" > Comentario </label>
+          <textarea class="form-control" id="comentario" placeholder="Introduzca su comentario"></textarea> 
+        </div>
+        <div class="form-group">
+          <input type="checkBox" class="form-check-input" id="contact_me" />
+          <label for="contact_me" class="form-check-label" > Quiero que me contacten. </label>
+        </div>
+        <button type="submit" class="btn btn-primary"> Enviar </button>
+      </form>        
     </div>
   </body>
   </body>
