@@ -1,24 +1,29 @@
 .jumbotron {
-	background-color: Darkblue;
+	background-color: purple;
 	color: black;
+	margin-top: 50px;
 }
 
 
 footer {
 	padding: 10px 10px 0 10px;
-	background-color: Darkblue;
+	background-color: purple;
 	color: white;
 	margin-bottom: 0px;
-	margin-top: 10 px;
+	margin-top: 10px;
 }
 
 .product-card {
-	flex: 1 150;
-	padding: 2px 5px 2px 5px;
+	flex: 1 125;
+	padding: 2px 0px 2px 5px;
 }
 
 .btn-reserva {
 	background-color: gray;
 	color: white;
 	width: 100%;	
+}
+
+.footer-icon {
+	margin-right: 100px;	
 }
