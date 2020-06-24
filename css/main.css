@@ -1,13 +1,14 @@
 .jumbotron {
-	background-color: purple;
-	color: black;
-	margin-top: 50px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  margin-top: 50px;
 }
+
 
 
 footer {
 	padding: 10px 10px 0 10px;
-	background-color: purple;
+	background-color: #00bfff;
 	color: white;
 	margin-bottom: 0px;
 	margin-top: 10px;
@@ -15,7 +16,7 @@ footer {
 
 .product-card {
 	flex: 1 125;
-	padding: 2px 0px 2px 5px;
+
 }
 
 .btn-reserva {
