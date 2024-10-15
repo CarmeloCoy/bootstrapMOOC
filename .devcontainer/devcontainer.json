@@ -1,0 +1,17 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Bootstrap MOOC",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"codezombiech.gitignore",
+				"esbenp.prettier-vscode",
+				"vivaxy.vscode-conventional-commits"
+			]
+		}
+	}
+}
