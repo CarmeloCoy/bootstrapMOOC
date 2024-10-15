@@ -1,127 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" />
 
-    <!--CSS -->
-    <link rel="stylesheet" href="css/main.css">
+        <!--CSS -->
+        <link rel="stylesheet" href="css/main.css" />
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="/index.html">Hoteles</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" >
-        <ul class="navbar-nav">
-           <li class="nav-item"> <a class="nav-link" href="/index.html"> Home </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/about.html"> Nosotros </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/prices.html"> Precios </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="/terms.html"> Términos y condiciones </a> </li>
-          <li class="nav-item active"> <a class="nav-link" href="#"> Contacto </a> </li>
-        </ul>
-      </div>
-    </nav>
-       
-    <div class="jumbotron"><h1>Contacto</h1></div> 
-    <div class="container">
-      <nav arial-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"> <a href="/index.html"> Home </a> </li>
-          <li class="breadcrumb-item active" aria-current="page">  Contacto </li>
-        <ol>
-      </nav>
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="/index.html">Hoteles</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/index.html"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html"> Nosotros </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/prices.html"> Precios </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/terms.html"> Términos y condiciones </a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"> Contacto </a></li>
+                </ul>
+            </div>
+        </nav>
 
-      <h1> Déjame tu comentario </h1>
-      <form>
-        <div class="form-row">
-           <div class="form-group col-sm-6">
-            <label for="nombre" > Nombre </label>
-            <input type="text" class="form-control" id="nombre" placeholder="Introduzca su nombre"/>
-          </div>
-          <div class="form-group col-sm-6">
-            <label for="apellido" > Apellidos </label>
-            <input type="text" class="form-control" id="apellido" placeholder="Introduzca su apellido"/> 
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="email" > Correo electrónico </label>
-          <input type="email" class="form-control" id="email" placeholder="Introduzca su correo"/> 
-        </div>
-        <div class="form-row">
-           <div class="form-group col-sm-9">
-            <label for="domicilio" > Domicilios </label>
-            <input type="text" class="form-control" id="domicilio" placeholder="Introduzca su domicilio"/>
-          </div>
-          <div class="form-group col-sm-3">
-            <label for="ccaa" > Comunidad Autónoma </label>
-            <select class="form-control" id="ccaa" >
-              <option disabled selected>Seleccione...</option>
-              <option> Andalucía </option>
-              <option> Aragón </option>
-              <option> Canarias </option>
-              <option> Cantabria </option>
-              <option> Castilla-La Mancha</option>
-              <option> Castilla y León</option>
-              <option> Cataluña </option>
-              <option> Ceuta </option>
-              <option> Comunidad de Madrid </option>
-              <option> Comunidad Valenciana </option>
-              <option> Extremadura </option>
-              <option> Islas Baleares </option>
-              <option> La Rioja </option>
-              <option> Melilla </option>
-              <option> Navarra </option>
-              <option> País Vasco </option>
-              <option> Principado de Asturias </option>
-              <option> Región de Murcia </option>
-            </select> 
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="comentario" > Comentario </label>
-          <textarea class="form-control" id="comentario" placeholder="Introduzca su comentario"></textarea> 
-        </div>
-        <div class="form-group">
-          <input type="checkBox" class="form-check-input" id="contact_me" />
-          <label for="contact_me" class="form-check-label" > Quiero que me contacten. </label>
-        </div>
-        <button type="submit" class="btn btn-primary"> Enviar </button>
-      </form>        
-    </div>
-  </body>
-  </body>
-  
-  <footer>
-    <div class="container">
-      <div class="row">
-      <div class="col-sm-6">
-        <a class="d-block" href="http://www.google.com"> Personal Web Page </a>
-        <a class="d-block" href="http://www.twitter.com"> Twitter</a>
-      </div>
-        <div class="col-sm-6">
-          <address>
-            <h3> Oficina Central </h3>
-            <p> <span class="oi oi-home footer-icon"/>Murcia, Plaza Juan XXIII, España </p>
-            <p> <span class="oi oi-envelope-closed footer-icon"/> pagina.de.productos@producciones.ess </p>        
-          </address>
-        </div>
-      </div>
-    </div> 
-  </footer>
+        <div class="jumbotron"><h1>Contacto</h1></div>
+        <div class="container">
+            <nav arial-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html"> Home </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+            </nav>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+            <h1>Déjame tu comentario</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="nombre"> Nombre </label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Introduzca su nombre" />
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="apellido"> Apellidos </label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Introduzca su apellido" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Correo electrónico </label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduzca su correo" />
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-9">
+                        <label for="domicilio"> Domicilios </label>
+                        <input type="text" class="form-control" id="domicilio" placeholder="Introduzca su domicilio" />
+                    </div>
+                    <div class="form-group col-sm-3">
+                        <label for="ccaa"> Comunidad Autónoma </label>
+                        <select class="form-control" id="ccaa">
+                            <option disabled selected>Seleccione...</option>
+                            <option>Andalucía</option>
+                            <option>Aragón</option>
+                            <option>Canarias</option>
+                            <option>Cantabria</option>
+                            <option>Castilla-La Mancha</option>
+                            <option>Castilla y León</option>
+                            <option>Cataluña</option>
+                            <option>Ceuta</option>
+                            <option>Comunidad de Madrid</option>
+                            <option>Comunidad Valenciana</option>
+                            <option>Extremadura</option>
+                            <option>Islas Baleares</option>
+                            <option>La Rioja</option>
+                            <option>Melilla</option>
+                            <option>Navarra</option>
+                            <option>País Vasco</option>
+                            <option>Principado de Asturias</option>
+                            <option>Región de Murcia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comentario"> Comentario </label>
+                    <textarea class="form-control" id="comentario" placeholder="Introduzca su comentario"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkBox" class="form-check-input" id="contact_me" />
+                    <label for="contact_me" class="form-check-label"> Quiero que me contacten. </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </body>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a class="d-block" href="http://www.google.com"> Personal Web Page </a>
+                    <a class="d-block" href="http://www.twitter.com"> Twitter</a>
+                </div>
+                <div class="col-sm-6">
+                    <address>
+                        <h3>Oficina Central</h3>
+                        <p><span class="oi oi-home footer-icon" />Murcia, Plaza Juan XXIII, España</p>
+                        <p><span class="oi oi-envelope-closed footer-icon" /> pagina.de.productos@producciones.ess</p>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
