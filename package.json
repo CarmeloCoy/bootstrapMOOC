@@ -22,7 +22,7 @@
         "lite-server": "^2.5.4"
     },
     "dependencies": {
-        "bootstrap": "^4.4.1",
+        "bootstrap": "^5.0.0",
         "cat": "^0.2.0",
         "jquery": "^3.5.1",
         "open-iconic": "^1.1.1",
